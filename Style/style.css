@@ -136,6 +136,8 @@ nav{
 }
 
 
+/* about section style */
+
 /* responsive layout added here for mobile mode */
 @media screen and (max-width: 480px) {
      nav,.menu-item{
@@ -162,6 +164,17 @@ nav{
         overflow: hidden;
         padding: 10px 0px;
         box-shadow: none;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+    .banner-title{
+        font-size: 50px;
+    }
+    .banner h2{
+        font-size: 54px;
     }
 }
 
