@@ -65,3 +65,14 @@ nav{
 .banner-list-icon i{
     color: rgb(255, 0, 140);
 }
+
+
+/* responsive layout added here for mobile mode */
+@media screen and (min-width: 480px) {
+    
+}
+
+@media screen and (min-width:768px) {
+    
+}
+
