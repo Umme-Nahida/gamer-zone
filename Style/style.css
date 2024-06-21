@@ -184,6 +184,12 @@ nav{
     margin-top: 4px;
 }
 
+/* vidoes section */
+.vidoes-section{
+    text-align: center;
+    padding: 50px;
+}
+
 /* responsive layout added here for mobile mode */
 @media screen and (max-width: 480px) {
      nav,.menu-item{
@@ -205,6 +211,17 @@ nav{
     }
 
     /* about */
+    .about{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .about-img, .about-content{
+      width: 100%;
+      text-align: center;
+    }
+    .purpose{
+        margin-top: 20px;
+    }
 }
 @media screen and (max-width: 980px) {
      nav,.menu-item{
@@ -223,6 +240,19 @@ nav{
     }
     .banner h2{
         font-size: 54px;
+    }
+
+     /* about */
+     .about{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .about-img, .about-content{
+      width: 100%;
+      text-align: center;
+    }
+    .purpose{
+        margin-top: 20px;
     }
 }
 
