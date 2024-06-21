@@ -82,7 +82,7 @@ nav{
 .banner h2{
     background: var(--linear,linear-gradient(180deg, #FF42A5 40%, #8758F1 100% ));
     background-clip: text;
-    -webkit-backgroun-clip:text;
+    -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
     font-size: 80px;
@@ -137,6 +137,52 @@ nav{
 
 
 /* about section style */
+.about{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.about-img{
+    width: 65%;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+
+}
+.about-content{
+    width: 35%;
+    text-align: right;
+}
+
+.about-title{
+    background: var(--linear,linear-gradient(180deg, #FF42A5 40%, #8758F1 100% ));
+    background-clip: text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 48px;
+    font-family: "poppins";
+
+
+}
+
+.about-text{
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.purpose{
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+.about-content h5{
+    font-size: 18px;
+    margin-top: 4px;
+}
 
 /* responsive layout added here for mobile mode */
 @media screen and (max-width: 480px) {
@@ -157,6 +203,8 @@ nav{
     .banner h2{
         font-size: 54px;
     }
+
+    /* about */
 }
 @media screen and (max-width: 980px) {
      nav,.menu-item{
