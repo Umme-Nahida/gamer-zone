@@ -210,6 +210,41 @@ nav{
     margin-top: 5px;
 }
 
+
+/* game section */
+.play-game-section{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    padding: 50px 80px;
+}
+
+.img-container{
+    width: 50%;
+}
+
+.large-pic{
+    width: 710px;
+    height: 650px;
+    flex-shrink: 0;
+    position: relative;
+}
+.small-pic{
+    width: 318px;
+    height: 330px; 
+    position: absolute;
+    top: 2320px;
+    left: 600px;
+
+}
+
+.img-container img{
+    width: 70%;
+    height: 100%;
+}
+.img-content{
+    width: 50%;
+}
 /* responsive layout added here for mobile mode */
 @media screen and (max-width: 480px) {
      nav,.menu-item{
