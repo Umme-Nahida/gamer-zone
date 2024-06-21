@@ -188,6 +188,26 @@ nav{
 .vidoes-section{
     text-align: center;
     padding: 50px;
+    font-family: "poppins";
+}
+
+.video-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    overflow: hidden;
+    text-align: left;
+    margin-left: 5px;
+   
+}
+
+.video img{
+    width: 100%;
+}
+.video p{
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 /* responsive layout added here for mobile mode */
@@ -222,6 +242,28 @@ nav{
     .purpose{
         margin-top: 20px;
     }
+
+    /* vidoes section */
+    .video-container{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+    }
+    .vidoes-section{
+        padding: 50px 5px;
+    }
+    .vidoes-section .about-title{
+        font-size: 34px;
+        padding: 0px;
+        margin-bottom: 10px;
+        line-height: 36px;
+    }
+
+    .video p{
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 20px;
+    }
 }
 @media screen and (max-width: 980px) {
      nav,.menu-item{
@@ -253,6 +295,27 @@ nav{
     }
     .purpose{
         margin-top: 20px;
+    }
+
+    /* vidoes section */
+    .video-container{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+    }
+    .vidoes-section{
+        padding: 50px 5px;
+    }
+    .vidoes-section .about-title{
+        font-size: 34px;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .video p{
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 20px;
     }
 }
 
