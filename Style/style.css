@@ -219,13 +219,13 @@ nav{
     padding: 50px 80px;
 }
 
-.img-container{
+.img-conteiner{
     width: 50%;
 }
 
 .large-pic{
-    width: 710px;
-    height: 650px;
+    width: 600px;
+    height: 600px;
     flex-shrink: 0;
     position: relative;
 }
@@ -233,17 +233,74 @@ nav{
     width: 318px;
     height: 330px; 
     position: absolute;
-    top: 2320px;
-    left: 600px;
+    top: 2200px;
+    left: 500px;
 
-}
-
-.img-container img{
-    width: 70%;
-    height: 100%;
 }
 .img-content{
     width: 50%;
+    margin-left: 100px ;
+}
+
+.img-title{
+    font-family: "poppins";
+    font-size: 36px;
+
+}
+.img-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 46px;
+    line-height:60px;
+}
+
+
+/* career */
+.career{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #FF42A5;
+    color: white;
+}
+.career-content{
+    width: 50%;
+    padding: 50px;
+}
+.career-img{
+    width: 50%;
+}
+ .career-img img{
+    width: 100%;
+}
+.left-text{
+    text-align: left;
+    margin-top: 10px;
+
+}
+.right-text{
+   text-align: right;
+   margin-top: 10px;
+    
+}
+.title{
+  font-size: 48px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.description{
+    font-family: "poppins";
+    font-size: 14px;
+} 
+.text-content{
+    font-family: "poppins";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
 }
 /* responsive layout added here for mobile mode */
 @media screen and (max-width: 480px) {
@@ -299,6 +356,54 @@ nav{
         text-align: center;
         line-height: 20px;
     }
+
+
+    /* play game */
+    .play-game-section{
+        flex-direction: column-reverse;
+        row-gap: 50px;
+        padding: 0px;
+    }
+
+    .img-conteiner,.img-content{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        padding: 5px;
+    }
+
+   .large-pic{
+        width: 80%;
+        height: 300px;
+        position: relative;
+    }
+    .small-pic{
+    position: absolute;
+        width: 40%;
+        height: 40%; 
+        top: 4200px;
+        left: 240px;
+    
+    }
+
+    .img-title, .img-title span{
+        font-family: "poppins";
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom:10px ;
+    
+    }
+
+    /* career */
+    .career{
+    margin-top: 50px;
+    flex-direction: column;
+    color: white;
+}
+
+.career-content,.career-img{
+    width: 100%;
+}
 }
 @media screen and (max-width: 980px) {
      nav,.menu-item{
@@ -351,6 +456,42 @@ nav{
         margin-top: 5px;
         text-align: center;
         line-height: 20px;
+    }
+
+     /* play game */
+     .play-game-section{
+        flex-direction: column-reverse;
+        row-gap: 50px;
+        padding: 0px;
+    }
+
+    .img-conteiner,.img-content{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        padding: 5px;
+    }
+
+   .large-pic{
+        width: 80%;
+        height: 300px;
+        position: relative;
+    }
+    .small-pic{
+    position: absolute;
+        width: 40%;
+        height: 40%; 
+        top: 4200px;
+        left: 240px;
+    
+    }
+
+    .img-title, .img-title span{
+        font-family: "poppins";
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom:10px ;
+    
     }
 }
 
