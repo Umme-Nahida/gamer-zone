@@ -164,6 +164,7 @@ nav{
     font-weight: 800;
     font-size: 48px;
     font-family: "poppins";
+    margin-bottom: 5px;
 
 
 }
@@ -285,7 +286,7 @@ nav{
    margin-top: 10px;
     
 }
-.title{
+.career-title{
   font-size: 48px;
   color: white;
   margin-bottom: 10px;
@@ -330,12 +331,13 @@ nav{
 }
 
 .games:hover {
-    border: 2px solid blueviolet;
+    border: 2px solid #FF42A5;
     border-radius: 50px;
     background: #FFF;
-    padding: 10px;
-    box-shadow: 5px 5px 5px lightgray;
-    animation-duration: 20s;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #FF42A5;
+    transition: all;
+    animation-duration: 300s;
 }
 
 /* footer section styles */
@@ -345,7 +347,7 @@ nav{
     padding: 100px 0;
 }
 
-.footer-img-title {
+.footer-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,7 +355,7 @@ nav{
 
 }
 
-.footer-img-title img {
+.footer-logo img {
     width: 86.041px;
     height: 40px;
 
@@ -367,18 +369,16 @@ nav{
 
 }
 
-.footer-anchore {
+.footer-anchor{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
-    margin-bottom: 10px;
 }
 
 .footer-section a {
     color: #FFF;
     text-decoration: none;
-    margin-top: 0px;
-    margin: 0 50px;
+    margin: 10px 20px;
 }
 
 .online-icon {
@@ -386,8 +386,8 @@ nav{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 20px 0;
+    
 
 }
 
@@ -513,6 +513,14 @@ nav{
 .career-content,.career-img{
     width: 100%;
 }
+
+/* footer */
+.footer-anchor{
+    line-height: 30px;
+}
+.footer-section{
+    width: 400px;
+}
 }
 @media screen and (max-width: 980px) {
      nav,.menu-item{
@@ -602,6 +610,15 @@ nav{
         margin-bottom:10px ;
     
     }
+
+    /* footer */
+    /* footer */
+.footer-anchor{
+    line-height: 30px;
+}
+.footer-section{
+    padding: 50px 0px;
+}
 }
 
 
